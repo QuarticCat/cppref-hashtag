@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         cppref-hashtag
 // @namespace    mailto:QuarticCat@protonmail.com
-// @version      0.1.0
+// @version      0.1.1
 // @description  Add Python-doc-like links to cppreference
 // @author       QuarticCat
-// @match        https://*.cppreference.com/w/cpp/language/lambda
+// @match        https://*.cppreference.com/*
 // @icon         https://www.google.com/s2/favicons?domain=cppreference.com
 // @grant        none
 // @license      MIT
