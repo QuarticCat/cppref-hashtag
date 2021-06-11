@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cppref-hashtag
 // @namespace    mailto:QuarticCat@protonmail.com
-// @version      0.1.1
+// @version      0.1.2
 // @description  Add Python-doc-like links to cppreference
 // @author       QuarticCat
 // @match        https://*.cppreference.com/*
@@ -14,7 +14,7 @@
     'use strict'
 
     // Inject CSS class
-    document.getElementsByTagName('head')[0].innerHTML += `
+    document.getElementsByTagName('head')[0].insertAdjacentHTML('beforeend', `
         <style type="text/css">
             a.headerlink {
                 color: #0072aa;
@@ -24,7 +24,7 @@
                 visibility: hidden;
             }
         </style>
-    `
+    `)
 
     for (let headline of document.getElementsByClassName('mw-headline')) {
         // Inject links
