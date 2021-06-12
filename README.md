@@ -6,7 +6,7 @@ A tampermonkey script that adds Python-doc-like links to [cppreference](https://
 
 ## Usage
 
-Install from [Greasy Fork](https://greasyfork.org/en/scripts/427790-cppref-hashtag).
+Install from [Greasy Fork](https://greasyfork.org/scripts/427790).
 
 ## Development
 
